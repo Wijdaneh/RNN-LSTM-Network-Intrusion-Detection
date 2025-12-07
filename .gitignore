@@ -1,0 +1,39 @@
+# --- Environnement Python ---
+__pycache__/
+*.pyc
+.env/
+venv/
+env/
+
+# --- Fichiers lourds / sensibles ---
+*.h5
+*.keras
+*.pkl
+*.json
+*.pcap
+*.pcapng
+*.csv
+*.xlsx
+*.zip
+*.gz
+*.tar
+
+# --- TensorBoard logs ---
+logs/
+*.out.tfevents.*
+
+# --- Modèles entraînés ---
+models/
+
+# --- Fichiers système Windows ---
+Thumbs.db
+Desktop.ini
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Images analytiques ---
+results/*.png
+
+# --- VSCode settings ---
+.vscode/
